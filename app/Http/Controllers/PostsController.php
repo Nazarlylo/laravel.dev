@@ -23,6 +23,7 @@ class PostsController extends CrudController{
 
 			$this->grid = \DataGrid::source($this->filter);
 			$this->grid->add('title', 'Title');
+			$this->grid->add('seo', 'Seo');
 			$this->grid->add('content', 'Content');
 		    $this->grid->add('{{ $category->title}}', 'Category');
 			$this->addStylesToGrid();
@@ -41,7 +42,7 @@ class PostsController extends CrudController{
 			$this->edit->label('Edit Posts');
 
 			$this->edit->add('title', 'Title', 'text');
-		
+
 			$this->edit->add('content', 'Content', 'redactor');
 
 		     $this->edit->add('image', 'Image', 'image')->move('uploads/images/')->preview(80,80);

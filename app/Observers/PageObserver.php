@@ -1,117 +1,117 @@
 <?php
 namespace App\Observers;
 
-use App\Page;
+use App\page;
 
 class PageObserver
 {
     
     /**
-     * Listen to the Page creating event.
+     * Listen to the page creating event.
      *
-     * @param  Page  $Page
+     * @param  page  $page
      * @return void
      */
-    public function creating(Page $Page)
+    public function creating(page $page)
     {
         //code...
     }
 
      /**
-     * Listen to the Page created event.
+     * Listen to the page created event.
      *
-     * @param  Page  $Page
+     * @param  page  $page
      * @return void
      */
-    public function created(Page $Page)
+    public function created(page $page)
     {
         //code...
     }
 
     /**
-     * Listen to the Page updating event.
+     * Listen to the page updating event.
      *
-     * @param  Page  $Page
+     * @param  page  $page
      * @return void
      */
-    public function updating(Page $Page)
+    public function updating(page $page)
     {
         //code...
     }
 
     /**
-     * Listen to the Page updated event.
+     * Listen to the page updated event.
      *
-     * @param  Page  $Page
+     * @param  page  $page
      * @return void
      */
-    public function updated(Page $Page)
+    public function updated(page $page)
     {
         //code...
     }
 
     /**
-     * Listen to the Page saving event.
+     * Listen to the page saving event.
      *
-     * @param  Page  $Page
+     * @param  page  $page
      * @return void
      */
-    public function saving(Page $Page)
+    public function saving(page $page)
     {
         //code...
     }
 
     /**
-     * Listen to the Page saved event.
+     * Listen to the page saved event.
      *
-     * @param  Page  $Page
+     * @param  page  $page
      * @return void
      */
-    public function saved(Page $Page)
+    public function saved(page $page)
     {
         //code...
     }
 
     /**
-     * Listen to the Page deleting event.
+     * Listen to the page deleting event.
      *
-     * @param  Page  $Page
+     * @param  page  $page
      * @return void
      */
-    public function deleting(Page $Page)
+    public function deleting(page $page)
     {
         //code...
     }
 
     /**
-     * Listen to the Page deleted event.
+     * Listen to the page deleted event.
      *
-     * @param  Page  $Page
+     * @param  page  $page
      * @return void
      */
-    public function deleted(Page $Page)
+    public function deleted(page $page)
     {
         //code...
     }
 
     /**
-     * Listen to the Page restoring event.
+     * Listen to the page restoring event.
      *
-     * @param  Page  $Page
+     * @param  page  $page
      * @return void
      */
-    public function restoring(Page $Page)
+    public function restoring(page $page)
     {
         //code...
     }
 
     /**
-     * Listen to the Page restored event.
+     * Listen to the page restored event.
      *
-     * @param  Page  $Page
+     * @param  page  $page
      * @return void
      */
-    public function restored(Page $Page)
+    public function restored(page $page)
     {
         //code...
     }

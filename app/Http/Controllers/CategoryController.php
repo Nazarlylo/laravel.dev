@@ -21,6 +21,7 @@ class CategoryController extends CrudController{
 
 			$this->grid = \DataGrid::source($this->filter);
 			$this->grid->add('title', 'Title');
+			$this->grid->add('seo', 'Seo');
 			$this->grid->add('description', 'Description');
 			$this->addStylesToGrid();
 

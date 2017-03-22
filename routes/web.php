@@ -11,10 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index');
+Route::get('/', 'HomeController@index');
+Route::get('/{url}','FrontPageController@show');
+Route::get('/category/{url}','FrontCategoryController@show');
+Route::get('/post/{url}','FrontPostController@show');
