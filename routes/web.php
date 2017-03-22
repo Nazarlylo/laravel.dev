@@ -16,6 +16,6 @@
 Auth::routes();
 
 Route::get('/', 'HomeController@index');
-Route::get('/{url}','FrontPageController@show');
+Route::get('/page/{url}','FrontPageController@show');
 Route::get('/category/{url}','FrontCategoryController@show');
 Route::get('/post/{url}','FrontPostController@show');
